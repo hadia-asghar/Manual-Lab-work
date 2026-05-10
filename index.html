@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lab 1 - HTML Basics</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background: #f4f7fc;
+            color: #333;
+        }
+
+        /* ===== HEADER ===== */
+
+        .header{
+            background: linear-gradient(135deg, #2563eb, #0f172a);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .header h1{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .header p{
+            font-size: 18px;
+        }
+
+        /* ===== CONTAINER ===== */
+
+        .container{
+            width: 85%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        /* ===== CARD ===== */
+
+        .card{
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .card h2{
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        .card p{
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        /* ===== LIST ===== */
+
+        ul{
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        ul li{
+            margin-bottom: 10px;
+            font-size: 17px;
+        }
+
+        /* ===== BUTTON ===== */
+
+        .btn{
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .btn:hover{
+            background: #0f172a;
+        }
+
+        /* ===== FOOTER ===== */
+
+        .footer{
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+
+    <div class="header">
+
+        <h1>Lab 1 - HTML Basics</h1>
+
+        <p>
+            Web Technologies Laboratory Experiment
+        </p>
+
+    </div>
+
+    <!-- ===== MAIN CONTENT ===== -->
+
+    <div class="container">
+
+        <!-- INTRODUCTION -->
+
+        <div class="card">
+
+            <h2>Introduction</h2>
+
+            <p>
+                This experiment introduces the basic structure of HTML and the
+                fundamental tags used in web development. HTML is used to create
+                webpages and organize content on the internet.
+            </p>
+
+        </div>
+
+        <!-- TOPICS -->
+
+        <div class="card">
+
+            <h2>Topics Covered</h2>
+
+            <ul>
+                <li>HTML Document Structure</li>
+                <li>Headings and Paragraphs</li>
+                <li>Lists in HTML</li>
+                <li>Links and Images</li>
+                <li>Basic Page Styling</li>
+            </ul>
+
+        </div>
+
+        <!-- RESULT -->
+
+        <div class="card">
+
+            <h2>Experiment Result</h2>
+
+            <p>
+                Successfully created a basic HTML webpage using different HTML tags
+                and webpage structure elements.
+            </p>
+
+            <a href="lab2.html" class="btn">
+                Back to Lab Manual
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+
+    <div class="footer">
+
+        <p>
+            © 2026 Web Technologies Lab | Created by Mashal Saeed
+        </p>
+
+    </div>
+
+</body>
+
+</html>
